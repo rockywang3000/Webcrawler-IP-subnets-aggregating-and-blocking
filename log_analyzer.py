@@ -39,10 +39,9 @@ def main():
             mydict[ip]=1
         #print (mydict[ip])
     '''after this, we get: mydict=
-    66.70.243.8 : 100 
-    66.70.243.7 : 99
-    1.2.3.4     : 4
-    1.2.3.8     : 8
+    110.2.3.4     : 100
+    112.2.3.8     : 98
+    ...
     '''
     myheap=[]
     for ip in mydict:
